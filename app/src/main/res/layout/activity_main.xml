@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.gohee_000.okhttprequest.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HTTP Example"
+        tools:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"  />
+
+    <Button
+        android:id="@+id/getBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="SEND HTTP REQUEST"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="67dp"
+        tools:layout_marginTop="250dp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="166dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        android:text="json from server"
+        android:textSize="17sp"
+        android:layout_below=@id/getBtnmSqLiteDatabase.insert
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <EditText
+        android:id="@+id/etJson"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="_________________"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="349dp" />
+
+</android.support.constraint.ConstraintLayout>
